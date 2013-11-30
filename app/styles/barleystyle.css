@@ -175,6 +175,15 @@ header .logo .logo-text {
 	opacity: 0;
 }
 
+.product-option {
+	width: 50%;
+	float: left;
+	padding: 30px;
+	min-height: 200px;
+	border-right: 1px dotted;
+	border-right-color: rgba(51, 51, 51, 0.2);
+}
+
 .product-option img {
 	display: block;
 	margin: 0 auto;
@@ -254,4 +263,51 @@ header .logo .logo-text {
 	color: #333333;
 	margin-top: 24px;
 	font-weight: 300;
+}
+
+.info-blocks .blurb a {
+	font-family: "adelle", sans-serif;
+	font-weight: 100;
+	font-size: 13px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	margin-top: 28px;
+	font-style: italic;
+	color: rgba(51, 51, 51, 0.55);
+}
+
+.footer-nav {
+	padding-left: 15px;
+}
+
+.footer-nav ul li.icon {
+	font-size: 17px;
+}
+
+.footer-nav ul li {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 13px;
+	height: 40px;
+	margin: 33px 16px;
+	line-height: 30px;
+	float: left;
+}
+
+.hometown {
+	float: right;
+	padding-right: 15px;
+	display: block;
+	max-width: 300px;
+}
+
+.hometown .map {
+	width: 54px;
+	height: 32px;
+	background: url(../images/pa.svg) center center no-repeat;
+	background-size: 100%;
+	position: relative;
+	float: right;
+	display: block;
+	margin-top: 30px;
 }
